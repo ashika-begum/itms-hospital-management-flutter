@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "805932440174",
+    "project_id": "inpatient-transport",
+    "storage_bucket": "inpatient-transport.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805932440174:android:261b1c2a30e5ad6bf6e47f",
+        "android_client_info": {
+          "package_name": "com.example.inpatient_transport"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_gjwVarsliKyFbtxuldSHK3FpcCTwkmE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

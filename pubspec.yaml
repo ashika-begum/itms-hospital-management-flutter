@@ -1,0 +1,74 @@
+name: inpatient_transport
+description: A new Flutter project.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  firebase_core: ^3.0.0
+  firebase_auth: ^5.1.1
+  cloud_firestore: ^5.0.1
+  firebase_messaging: ^15.0.0
+  firebase_storage: ^12.4.10
+  firebase_app_check: ^0.3.2+6
+
+  # QR / Scanner
+  mobile_scanner: ^3.5.5
+  qr_flutter: ^4.1.0
+
+  # Media
+  image_picker: ^1.0.7
+
+  # Networking
+  http: ^1.2.0
+
+  # State management
+  provider: ^6.1.1
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # UI
+  google_fonts: ^6.2.1
+  fluttertoast: ^8.2.5
+
+  # External apps
+  url_launcher: ^6.2.5
+  pdf: ^3.11.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # ✅ ADD THIS (splash generator)
+  flutter_native_splash: ^2.4.3
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+  # ✅ ADD THIS
+
+
+# ✅ ADD THIS ENTIRE BLOCK (VERY IMPORTANT)
+flutter_native_splash:
+  color: "#FFFFFF"     # WHITE background
+  image: assets/icons/itms_splash.png
+
+  android: true
+  ios: true
+  web: true
+
+  android_12:
+    color: "#FFFFFF"
+    image: assets/icons/itms_splash.png
